@@ -25,7 +25,7 @@ class Transfer
         "Transaction rejected. Please check your account balance."
         @status="rejected"
       end
-      # binding.pry
+      binding.pry
     end
 
     def reverse_transfer
