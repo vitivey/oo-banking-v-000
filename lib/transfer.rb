@@ -12,7 +12,7 @@ class Transfer
     def sender(sender)
       BankAccount.new(sender)
     end
-    
+
     def receiver(receiver)
       BankAccount.new(sender)
     end
