@@ -14,7 +14,7 @@ class Transfer
     end
 
     def receiver(receiver)
-      BankAccount.new(sender)
+      BankAccount.new(receiver)
     end
 
 end
