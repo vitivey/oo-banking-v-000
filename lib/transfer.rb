@@ -10,5 +10,16 @@ class Transfer
       @status="pending"
     end
 
+    def valid?
+      @sender.valid? and @receiver.valid?
+    end
 
+    def execute_transaction
+
+    end
+
+    def reverse_transfer
+
+    end
+  
 end
